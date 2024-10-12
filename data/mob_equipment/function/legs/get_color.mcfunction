@@ -1,2 +1,2 @@
-execute store result score $nmr_legs_color nmr.technical run random value 0..16777215
-execute store result storage nmr:armor legs_color int 1 run scoreboard players get $nmr_legs_color nmr.technical
+execute store result score $eden.legs.color eden.technical run random value 0..16777215
+execute store result storage mob_equipment:legs color int 1 run scoreboard players get $eden.legs.color eden.technical
