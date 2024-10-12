@@ -25,6 +25,14 @@
           "type": "minecraft:pillager",
           "nbt": "{Tags:[\"katter.raj.rider\"]}"
         }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:husk",
+          "nbt": "{CustomName:'{\"color\":\"gold\",\"text\":\"Pharaoh\"}}"
+        }
       }
     ]
   }
