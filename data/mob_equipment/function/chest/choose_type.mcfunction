@@ -30,5 +30,4 @@ execute if score $eden.chest.type eden.technical matches 1..30 run data modify e
 execute if score $eden.chest.type eden.technical matches 31..40 run data modify entity @s ArmorDropChances[2] set value 0.080F
 execute if score $eden.chest.type eden.technical matches 41..50 run data modify entity @s ArmorDropChances[2] set value 0.060F
 execute if score $eden.chest.type eden.technical matches 51..60 run data modify entity @s ArmorDropChances[2] set value 0.040F
-execute if score $eden.chest.type eden.technical matches 61..65 run data modify entity @s ArmorDropChances[2] set value 0.000F
-execute if score $eden.chest.type eden.technical matches 66..67 run data modify entity @s ArmorDropChances[2] set value 0.000F
+execute if score $eden.chest.type eden.technical matches 61..67 run data modify entity @s ArmorDropChances[2] set value -327.670F

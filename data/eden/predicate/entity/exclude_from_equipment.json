@@ -31,7 +31,7 @@
         "entity": "this",
         "predicate": {
           "type": "minecraft:husk",
-          "nbt": "{CustomName:'{\"color\":\"gold\",\"text\":\"Pharaoh\"}}"
+          "nbt": "{CustomName:'{\"color\":\"gold\",\"text\":\"Pharaoh\"}'}"
         }
       }
     ]
