@@ -6,5 +6,5 @@ function mob_equipment:feet/get_trim_material
 
 function mob_equipment:feet/choose_type with storage mob_equipment:feet
 
-item modify entity @s armor.feet eden:random_damage
+execute if items entity @s armor.feet #eden:valid_for_damage run item modify entity @s armor.feet eden:random_damage
 execute if predicate eden:percentages/30 run item modify entity @s armor.feet eden:random_enchantments

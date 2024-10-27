@@ -13,5 +13,5 @@ execute if predicate eden:percentages/50 if items entity @s weapon.mainhand #min
 execute if predicate eden:percentages/50 if items entity @s weapon.mainhand minecraft:bow run function mob_equipment:offhand/bows with storage mob_equipment:offhand
 execute if predicate eden:percentages/50 if items entity @s weapon.mainhand minecraft:crossbow run function mob_equipment:offhand/bows with storage mob_equipment:offhand
 
-item modify entity @s weapon.offhand eden:random_damage
+execute if items entity @s weapon.offhand #eden:valid_for_damage run item modify entity @s weapon.offhand eden:random_damage
 execute if predicate eden:percentages/30 if items entity @s weapon.offhand minecraft:shield run item modify entity @s weapon.offhand eden:random_enchantments
