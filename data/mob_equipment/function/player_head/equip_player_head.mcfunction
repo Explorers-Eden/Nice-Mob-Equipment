@@ -1,4 +1,4 @@
-execute as @s[type=#eden:valid_for_player_head] run function mob_equipment:player_head/get_playername
+execute if predicate eden:percentages/20 as @s[type=#eden:valid_for_player_head] run return run function mob_equipment:player_head/player_skin/run
 
 execute if predicate eden:percentages/30 as @s[type=zombie] run function mob_equipment:player_head/zombie_player_head with storage mob_equipment:player_head
 execute if predicate eden:percentages/30 as @s[type=drowned] run function mob_equipment:player_head/drowned_player_head with storage mob_equipment:player_head
