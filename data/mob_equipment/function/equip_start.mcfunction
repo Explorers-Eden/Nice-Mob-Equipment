@@ -7,3 +7,4 @@ execute if predicate eden:percentages/20 run function mob_equipment:mainhand/equ
 execute if items entity @s weapon.mainhand * unless items entity @s weapon.offhand * if predicate eden:percentages/30 run function mob_equipment:offhand/equip_offhand
 
 tag @s add eden.equipped
+data remove storage eden:temp mob_equipment
