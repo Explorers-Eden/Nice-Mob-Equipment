@@ -1,1 +1,0 @@
-$function mob_equipment:player_head/player_skin/equip_player_head with storage eden:playerhead_db entries.$(rolled_id)

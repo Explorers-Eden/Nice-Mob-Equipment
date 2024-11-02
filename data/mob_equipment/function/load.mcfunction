@@ -7,7 +7,7 @@ scoreboard objectives add mob_equipment.playerhead.update minecraft.custom:minec
 
 ##init schedules
 schedule function mob_equipment:run 5t
-schedule function mob_equipment:playerhead_db/run 60s
+schedule function mob_equipment:database/player/run 60s
 
 ##remove temp storage
 data remove storage eden:temp mob_equipment

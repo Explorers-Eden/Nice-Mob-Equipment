@@ -1,0 +1,1 @@
+$function mob_equipment:player_head/player/equip_player_head with storage eden:playerhead_db player.$(rolled_id)
