@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:compass"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "clock"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:recovery_compass"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:writable_book"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:goat_horn"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "map"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:filled_map"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        ]
+      }
+    ]
+  }

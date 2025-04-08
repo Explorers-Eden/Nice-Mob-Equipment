@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:water_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wheat"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wheat_seeds"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:poisonous_potato"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potato"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone_meal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beetroot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beetroot_seeds"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        ]
+      }
+    ]
+  }

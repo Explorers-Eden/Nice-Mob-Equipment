@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:torch"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:soul_torch"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lantern"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:soul_lantern"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone_torch"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        ]
+      }
+    ]
+  }

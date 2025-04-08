@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/head/unenchanted/leather",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/head/enchanted/leather",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/head/unenchanted/gold",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/head/enchanted/gold",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/head/unenchanted/iron",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/head/unenchanted/chainmail",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/head/enchanted/iron",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/head/enchanted/chainmail",
+            "weight": 6
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      }
+    ]
+  }

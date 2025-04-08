@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_beef"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_chicken"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_porkchop"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_rabbit"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wind_charge"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snowball"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        ]
+      }
+    ]
+  }

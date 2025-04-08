@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:entity/equipment/mainhand/unenchanted/misc",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:entity/equipment/mainhand/unenchanted/wood",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:entity/equipment/mainhand/enchanted/wood",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:entity/equipment/mainhand/unenchanted/stone",
+          "weight": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    }
+  ]
+}

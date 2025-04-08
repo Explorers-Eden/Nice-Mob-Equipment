@@ -1,0 +1,76 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/unenchanted/leather",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/enchanted/leather",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/unenchanted/gold",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/enchanted/gold",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/unenchanted/iron",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/unenchanted/chainmail",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/enchanted/iron",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/enchanted/chainmail",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/unenchanted/diamond",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/enchanted/diamond",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/unenchanted/netherite",
+            "weight": 9
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/chest/enchanted/netherite",
+            "weight": 10
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      }
+    ]
+  }

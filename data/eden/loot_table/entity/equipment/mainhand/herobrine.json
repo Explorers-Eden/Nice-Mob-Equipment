@@ -1,0 +1,81 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/unenchanted/misc",
+            "weight": 9
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/unenchanted/wood",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/enchanted/wood",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/unenchanted/stone",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/enchanted/stone",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/unenchanted/iron",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/unenchanted/gold",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/enchanted/iron",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/enchanted/gold",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/unenchanted/diamond",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/enchanted/diamond",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/unenchanted/netherite",
+            "weight": 9
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:entity/equipment/mainhand/enchanted/netherite",
+            "weight": 10
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.25
+          }
+        ]
+      }
+    ]
+  }

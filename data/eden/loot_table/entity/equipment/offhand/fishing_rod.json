@@ -1,0 +1,64 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:axolotl_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cod_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pufferfish_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:salmon_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tadpole_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:water_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cod"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:salmon"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pufferfish"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        ]
+      }
+    ]
+  }
