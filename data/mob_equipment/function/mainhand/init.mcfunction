@@ -1,4 +1,5 @@
 execute as @s[type=pillager] run return fail
+execute as @s[type=zombified_piglin] run return fail
 execute as @s[scores={mob_equipment.score=..20000}] run return fail
 
 execute as @s[scores={mob_equipment.score=20001..50000}] run loot replace entity @s weapon.mainhand loot eden:entity/equipment/mainhand/very_easy

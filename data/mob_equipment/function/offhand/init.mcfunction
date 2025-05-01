@@ -1,3 +1,5 @@
+execute as @s[type=zombified_piglin] run return fail
+
 function mob_equipment:offhand/get_material
 function mob_equipment:offhand/get_tipped_arrow
 function mob_equipment:offhand/get_firework
